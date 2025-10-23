@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to right, #EEDBE5 50%, #14b9b1 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+h1 {
+    align-self: center;
+
+    text-align:start
+}
