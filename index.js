@@ -7,4 +7,13 @@ window.onload = function() {
 
 
     document.title = DiasJuntos - 2; //Te amooo
+
+    document.getElementById("diasJuntos").textContent="Llevamos "+(DiasJuntos - 2).toString() + " dias como noviectios <3";
 }
+
+
+const card = document.getElementById('myCard');
+
+card.addEventListener('click', () => {
+  card.classList.toggle('flipped');
+});
