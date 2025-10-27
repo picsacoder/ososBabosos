@@ -8,7 +8,6 @@ window.onload = function() {
 
     document.title = DiasJuntos - 2; //Te amooo
 
-    document.getElementById("diasJuntos").textContent=""+(DiasJuntos - 2).toString() + " dias siendo la mejor pareja del mundo";
 }
 
 

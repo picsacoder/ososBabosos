@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Gravitas+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 body {
     margin: 0;
     background: linear-gradient(to right, #EEDBE5 50%, #14b9b1 50%);
@@ -29,7 +30,11 @@ img {
     width: 100%;
 
 }
-
+input {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
 .card-container {
   perspective: 1000px; 
 
@@ -76,7 +81,13 @@ display: flex;
 
 }
 
-@keyframes movimiento {
+.instrucciones {
+  color: black;
+  font-size: smaller;
+  font-family: sans-serif;
+}
+
+@keyframes mover {
     0%   { transform: translate(0, 0) rotate(0deg); }
     25%  { transform: translate(3px, -3px) rotate(-2deg); }
     50%  { transform: translate(-3px, 3px) rotate(2deg); }
@@ -84,5 +95,28 @@ display: flex;
     100% { transform: translate(0, 0) rotate(0deg); }    
 }
 .mover {
-    animation: movimiento 0.3s infinite;
+    animation: mover 0.3s infinite;
+    cursor: pointer;
+    transition: transform 0.3s;
+
+}
+
+button {
+    display: block;
+    border: none;
+    margin: auto;
+    background-color: rgb(255, 228, 75);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.6)
+}
+
+.texto {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
 }
