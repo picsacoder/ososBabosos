@@ -1,5 +1,4 @@
-//regalo
-//el contador debe tener un degradado mientras baje los segundos
+
 const regalo = document.getElementById('regalo');
 const contador = document.getElementById('contador')
 const text = document.getElementById('text')
