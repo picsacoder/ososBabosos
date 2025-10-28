@@ -3,7 +3,7 @@ const regalo = document.getElementById('regalo');
 const contador = document.getElementById('contador')
 const text = document.getElementById('text')
 
-let tiempo = 2;
+let tiempo = 57.9;
 let restante = tiempo;
 let presionado = false;
 let intervalo;
